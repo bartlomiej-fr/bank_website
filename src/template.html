@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="./assets/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="./assets/logo.png" alt="company_logo" class="nav__logo" id="logo">
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--1">Features</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--2">Operations</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--3">Opinions</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__title">
+            <h1>
+                Your <span class="highlight">payments</span>
+                are<br />
+                <span class="highlight">convenient</span>
+            </h1>
+            <h4>A simpler life with simple transactions.</h4>
+            <button class="btn--text btn-scroll-to">Learn more &DownArrow;</button>
+            <img src="./assets/hero.png" class="header__img" alt="quicker transactions" />
+        </div>
+    </header>
+
+    <section class="section" id="section--1">
+        <div class="section__title">
+            <h2 class="section__header">Features</h2>
+            <h3 class="section__description">
+                Here's what you can expect from your account
+            </h3>
+        </div>
+
+        <div class="features">
+            <img src="./assets/online_payment.jpg" alt="Online payments" class="features__img lazy-img" />
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="./assets/icons.svg#icon-monitor"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">You can make any payment online</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+                    sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+                    debitis ducimus.
+                </p>
+            </div>
+
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="./assets/icons.svg#icon-credit-card"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Contactless payments</h5>
+                <p>
+                    Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+                    inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+                    quibusdam!
+                </p>
+            </div>
+            <img src="./assets/contactless.jpg" alt="contactless" class="features__img lazy-img" />
+
+            <img src="./assets/account_app.jpg" alt="online application" class="features__img lazy-img" />
+            <div class="features__feature">
+                <div class="features__icon">
+                    <svg>
+                        <use xlink:href="./assets/icons.svg#icon-trending-up"></use>
+                    </svg>
+                </div>
+                <h5 class="features__header">Convenient web application</h5>
+                <p>
+                    Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+                    eveniet consequatur odit quam quos possimus assumenda dicta fuga
+                    inventore ab.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section--2">
+        <div class="section__title">
+            <h2 class="section__header">Operations</h2>
+            <h3 class="section__description">
+                Unlimited possibilities of your account.
+            </h3>
+        </div>
+
+        <div class="operations">
+            <div class="operations__tab-container">
+                <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+                    <span>01</span>Instant Transfers
+                </button>
+                <button class="btn operations__tab operations__tab--2" data-tab="2">
+                    <span>02</span>Foreign payments
+                </button>
+                <button class="btn operations__tab operations__tab--3" data-tab="3">
+                    <span>03</span>Cryptocurrencies
+                </button>
+            </div>
+            <div class="operations__content operations__content--1 operations__content--active">
+                <div class="operations__icon operations__icon--1">
+                    <svg>
+                        <use xlink:href="./assets/icons.svg#icon-upload"></use>
+                    </svg>
+                </div>
+                <h5 class="operations__header">
+                    We offer the fastest internet transfers!
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div class="operations__content operations__content--2">
+                <div class="operations__icon operations__icon--2">
+                    <svg>
+                        <use xlink:href="./assets/icons.svg#icon-home"></use>
+                    </svg>
+                </div>
+                <h5 class="operations__header">
+                    The most favorable currency conversion when paying abroad.
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="operations__content operations__content--3">
+                <div class="operations__icon operations__icon--3">
+                    <svg>
+                        <use xlink:href="./assets/icons.svg#icon-user-x"></use>
+                    </svg>
+                </div>
+                <h5 class="operations__header">
+                    Possibility to invest any amount in the selected cryptocurrency.
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="section--3">
+        <div class="section__title section__title--testimonials">
+            <h2 class="section__header">Not sure yet?</h2>
+            <h3 class="section__description">
+                Check the opinions of our users.
+            </h3>
+        </div>
+
+        <div class="slider">
+            <div class="slide slide--1">
+                <div class="testimonial">
+                    <h5 class="testimonial__header">One of the best banking apps</h5>
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium quas quisquam non? Quas voluptate nulla minima
+                        deleniti optio ullam nesciunt, numquam corporis et asperiores
+                        laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+                        id alias reiciendis, perferendis facere pariatur dolore veniam
+                        autem esse non voluptatem saepe provident nihil molestiae.
+                    </blockquote>
+                    <address class="testimonial__author">
+                        <img src="./assets/user-1.jpg" alt="user" class="testimonial__photo" />
+                        <h6 class="testimonial__name">Abigail Fisher</h6>
+                        <p class="testimonial__location">New York, USA</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide slide--2">
+                <div class="testimonial">
+                    <h5 class="testimonial__header">
+                        The web application works efficiently and is legible
+                    </h5>
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium quas quisquam non? Quas voluptate nulla minima
+                        deleniti optio ullam nesciunt, numquam corporis et asperiores
+                        laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+                        id alias reiciendis, perferendis facere pariatur dolore veniam
+                        autem esse non voluptatem saepe provident nihil molestiae.
+                    </blockquote>
+                    <address class="testimonial__author">
+                        <img src="./assets/user-2.jpg" alt="user" class="testimonial__photo" />
+                        <h6 class="testimonial__name">Reece Russell</h6>
+                        <p class="testimonial__location">Canada, CA</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="slide slide--3">
+                <div class="testimonial">
+                    <h5 class="testimonial__header">
+                        The best exchange rate for payments abroad!
+                    </h5>
+                    <blockquote class="testimonial__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium quas quisquam non? Quas voluptate nulla minima
+                        deleniti optio ullam nesciunt, numquam corporis et asperiores
+                        laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+                        id alias reiciendis, perferendis facere pariatur dolore veniam
+                        autem esse non voluptatem saepe provident nihil molestiae.
+                    </blockquote>
+                    <address class="testimonial__author">
+                        <img src="./assets/user-3.jpg" alt="user" class="testimonial__photo" />
+                        <h6 class="testimonial__name">Carlos Holden</h6>
+                        <p class="testimonial__location">England, UK</p>
+                    </address>
+                </div>
+            </div>
+
+            <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+          <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+          <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+          <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+        </div>
+    </section>
+
+    <section class="section section--sign-up">
+        <div class="section__title">
+            <h3 class="section__header">
+                Easily go through the account registration process and join the network of satisfied customers!
+            </h3>
+        </div>
+        <button class="btn btn--show-modal">Open an account and start using!</button>
+    </section>
+
+    <footer class="footer">
+        <ul class="footer__nav">
+            <li class="footer__item">
+                <a class="footer__link" href="#">About</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Pricing</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Terms of Use</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Blog</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <img src="./assets/icon_white.png" alt="Logo" class="footer__logo" />
+        <p class="footer__copyright">
+            &copy; Copyright by
+            <a class="footer__link footer__github-link" target="_blank"
+                href="https://github.com/bartlomiej-fr">Bartłomiej
+                Frąk.</a>
+        </p>
+    </footer>
+
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+            Open your bank account <br />
+            in just <span class="highlight">5 minutes</span>
+        </h2>
+        <form class="modal__form">
+            <label>First Name</label>
+            <input type="text" />
+            <label>Last Name</label>
+            <input type="text" />
+            <label>Email Address</label>
+            <input type="email" />
+            <button class="btn">Next step &rarr;</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+</body>
+
+</html>
