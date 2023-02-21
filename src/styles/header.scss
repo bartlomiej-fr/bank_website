@@ -12,11 +12,6 @@ $transition: all 0.3s;
     padding: 0 6rem;
     z-index: 1;
 
-    &sticky {
-        position: fixed;
-        background-color: rgb(255, 255, 255, 0.95);
-    }
-
     &__logo {
         height: 4.5rem;
         transition: $transition;
@@ -83,6 +78,11 @@ $transition: all 0.3s;
         grid-row: 1 / span 4;
         transform: translateY(-6rem);
     }
+}
+
+.sticky {
+    position: fixed;
+    background-color: rgb(255, 255, 255, 0.95);
 }
 
 h1 {
