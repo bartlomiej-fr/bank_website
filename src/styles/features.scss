@@ -43,3 +43,7 @@ $transition: all 0.3s;
         margin-bottom: 1rem;
     }
 }
+
+.lazy-img {
+    filter: blur(20px);
+}

@@ -1,3 +1,5 @@
+$primary-color: #e069cb;
+
 .slider {
     position: relative;
     max-width: 100rem;
@@ -15,7 +17,7 @@
         align-items: center;
         justify-content: center;
 
-        transition: transform 1;
+        transition: transform 1s;
 
         .testimonial {
             width: 65%;
@@ -29,7 +31,7 @@
                 line-height: 1;
                 font-size: 20rem;
                 font-family: inherit;
-                color: var(--color-primary);
+                color: $primary-color;
                 z-index: -1;
             }
 

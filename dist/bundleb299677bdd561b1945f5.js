@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".features {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 4rem;\n  margin: 0 12rem;\n}\n.features__img {\n  width: 100%;\n}\n.features__feature {\n  align-self: center;\n  justify-self: center;\n  width: 70%;\n  font-size: 1.5rem;\n}\n.features__icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(224, 105, 202, 0.5490196078);\n  height: 5.5rem;\n  width: 5.5rem;\n  border-radius: 50%;\n  margin-bottom: 2rem;\n}\n.features svg {\n  height: 2.5rem;\n  width: 2.5rem;\n  fill: var(--color-primary);\n}\n.features__header {\n  font-size: 2rem;\n  margin-bottom: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/features.scss"],"names":[],"mappings":"AAMA;EACI,aAAA;EACA,8BAAA;EACA,SAAA;EACA,eAAA;AALJ;AAOI;EACI,WAAA;AALR;AAQI;EACI,kBAAA;EACA,oBAAA;EACA,UAAA;EACA,iBAAA;AANR;AASI;EACI,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,mDA1BgB;EA2BhB,cAAA;EACA,aAAA;EACA,kBAAA;EACA,mBAAA;AAPR;AAUI;EACI,cAAA;EACA,aAAA;EACA,0BAAA;AARR;AAWI;EACI,eAAA;EACA,mBAAA;AATR","sourcesContent":["$primary-color: #e069cb;\r\n$primary-color-opacity: #e069ca8c;\r\n$primary-color-darker: #bb4aa6;\r\n$primary-gradient: linear-gradient(to top left, $primary-color-darker, $primary-color);\r\n$transition: all 0.3s;\r\n\r\n.features {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 4rem;\r\n    margin: 0 12rem;\r\n\r\n    &__img {\r\n        width: 100%;\r\n    }\r\n\r\n    &__feature {\r\n        align-self: center;\r\n        justify-self: center;\r\n        width: 70%;\r\n        font-size: 1.5rem;\r\n    }\r\n\r\n    &__icon {\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        background-color: $primary-color-opacity;\r\n        height: 5.5rem;\r\n        width: 5.5rem;\r\n        border-radius: 50%;\r\n        margin-bottom: 2rem;\r\n    }\r\n\r\n    svg {\r\n        height: 2.5rem;\r\n        width: 2.5rem;\r\n        fill: var(--color-primary);\r\n    }\r\n\r\n    &__header {\r\n        font-size: 2rem;\r\n        margin-bottom: 1rem;\r\n    }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".features {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 4rem;\n  margin: 0 12rem;\n}\n.features__img {\n  width: 100%;\n}\n.features__feature {\n  align-self: center;\n  justify-self: center;\n  width: 70%;\n  font-size: 1.5rem;\n}\n.features__icon {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(224, 105, 202, 0.5490196078);\n  height: 5.5rem;\n  width: 5.5rem;\n  border-radius: 50%;\n  margin-bottom: 2rem;\n}\n.features svg {\n  height: 2.5rem;\n  width: 2.5rem;\n  fill: var(--color-primary);\n}\n.features__header {\n  font-size: 2rem;\n  margin-bottom: 1rem;\n}\n\n.lazy-img {\n  filter: blur(20px);\n}", "",{"version":3,"sources":["webpack://./src/styles/features.scss"],"names":[],"mappings":"AAMA;EACI,aAAA;EACA,8BAAA;EACA,SAAA;EACA,eAAA;AALJ;AAOI;EACI,WAAA;AALR;AAQI;EACI,kBAAA;EACA,oBAAA;EACA,UAAA;EACA,iBAAA;AANR;AASI;EACI,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,mDA1BgB;EA2BhB,cAAA;EACA,aAAA;EACA,kBAAA;EACA,mBAAA;AAPR;AAUI;EACI,cAAA;EACA,aAAA;EACA,0BAAA;AARR;AAWI;EACI,eAAA;EACA,mBAAA;AATR;;AAaA;EACI,kBAAA;AAVJ","sourcesContent":["$primary-color: #e069cb;\r\n$primary-color-opacity: #e069ca8c;\r\n$primary-color-darker: #bb4aa6;\r\n$primary-gradient: linear-gradient(to top left, $primary-color-darker, $primary-color);\r\n$transition: all 0.3s;\r\n\r\n.features {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 4rem;\r\n    margin: 0 12rem;\r\n\r\n    &__img {\r\n        width: 100%;\r\n    }\r\n\r\n    &__feature {\r\n        align-self: center;\r\n        justify-self: center;\r\n        width: 70%;\r\n        font-size: 1.5rem;\r\n    }\r\n\r\n    &__icon {\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        background-color: $primary-color-opacity;\r\n        height: 5.5rem;\r\n        width: 5.5rem;\r\n        border-radius: 50%;\r\n        margin-bottom: 2rem;\r\n    }\r\n\r\n    svg {\r\n        height: 2.5rem;\r\n        width: 2.5rem;\r\n        fill: var(--color-primary);\r\n    }\r\n\r\n    &__header {\r\n        font-size: 2rem;\r\n        margin-bottom: 1rem;\r\n    }\r\n}\r\n\r\n.lazy-img {\r\n    filter: blur(20px);\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -192,7 +192,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".nav {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  height: 9rem;\n  width: 100%;\n  padding: 0 6rem;\n  z-index: 1;\n}\n.navsticky {\n  position: fixed;\n  background-color: rgba(255, 255, 255, 0.95);\n}\n.nav__logo {\n  height: 4.5rem;\n  transition: all 0.3s;\n}\n.nav__links {\n  display: flex;\n  align-items: center;\n  list-style: none;\n}\n.nav__item {\n  margin-left: 4rem;\n}\n.nav__link:link, .nav__link:visited {\n  display: block;\n  font-size: 1.7rem;\n  font-weight: 400;\n  color: inherit;\n  text-decoration: none;\n  transition: all 0.3s;\n}\n.nav__link--btn:link, .nav__link--btn:visited {\n  padding: 0.8rem 2.5rem;\n  border-radius: 3rem;\n  background-color: #e069cb;\n  color: #222;\n}\n.nav__link--btn:hover, .nav__link--btn:active {\n  color: inherit;\n  background-color: #bb4aa6;\n  color: #333;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  height: 100vh;\n  padding: 0 3rem;\n}\n.header__title {\n  flex: 1;\n  display: grid;\n  max-width: 115rem;\n  grid-template-columns: 3fr 2fr;\n  row-gap: 3rem;\n  align-content: center;\n  justify-content: center;\n  align-items: start;\n  justify-items: start;\n}\n.header__img {\n  width: 100%;\n  grid-column: 2/3;\n  grid-row: 1/span 4;\n  transform: translateY(-6rem);\n}\n\nh1 {\n  font-size: 5.5rem;\n  line-height: 1.35;\n}\n\nh4 {\n  font-size: 2.4rem;\n  font-weight: 500;\n}\n\n.highlight {\n  position: relative;\n}\n\n.highlight::after {\n  display: block;\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  z-index: -1;\n  opacity: 0.7;\n  transform: scale(1.07, 1.05) skewX(-15deg);\n  background-image: linear-gradient(to top left, #bb4aa6, #e069cb);\n}", "",{"version":3,"sources":["webpack://./src/styles/header.scss"],"names":[],"mappings":"AAKA;EACI,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,eAAA;EACA,UAAA;AAJJ;AAMI;EACI,eAAA;EACA,2CAAA;AAJR;AAOI;EACI,cAAA;EACA,oBAlBK;AAab;AAQI;EACI,aAAA;EACA,mBAAA;EACA,gBAAA;AANR;AASI;EACI,iBAAA;AAPR;AAUI;EAEI,cAAA;EACA,iBAAA;EACA,gBAAA;EACA,cAAA;EACA,qBAAA;EACA,oBAtCK;AA6Bb;AAYI;EAEI,sBAAA;EACA,mBAAA;EACA,yBAhDQ;EAiDR,WAAA;AAXR;AAcI;EAEI,cAAA;EACA,yBAtDe;EAuDf,WAAA;AAbR;;AAiBA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,aAAA;EACA,eAAA;AAdJ;AAgBI;EACI,OAAA;EACA,aAAA;EACA,iBAAA;EACA,8BAAA;EACA,aAAA;EACA,qBAAA;EACA,uBAAA;EACA,kBAAA;EACA,oBAAA;AAdR;AAiBI;EACI,WAAA;EACA,gBAAA;EACA,kBAAA;EACA,4BAAA;AAfR;;AAmBA;EACI,iBAAA;EACA,iBAAA;AAhBJ;;AAmBA;EACI,iBAAA;EACA,gBAAA;AAhBJ;;AAmBA;EACI,kBAAA;AAhBJ;;AAmBA;EACI,cAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,OAAA;EACA,YAAA;EACA,WAAA;EACA,WAAA;EACA,YAAA;EACA,0CAAA;EACA,gEA9Ge;AA8FnB","sourcesContent":["$primary-color: #e069cb;\r\n$primary-color-darker: #bb4aa6;\r\n$primary-gradient: linear-gradient(to top left, $primary-color-darker, $primary-color);\r\n$transition: all 0.3s;\r\n\r\n.nav {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    height: 9rem;\r\n    width: 100%;\r\n    padding: 0 6rem;\r\n    z-index: 1;\r\n\r\n    &sticky {\r\n        position: fixed;\r\n        background-color: rgb(255, 255, 255, 0.95);\r\n    }\r\n\r\n    &__logo {\r\n        height: 4.5rem;\r\n        transition: $transition;\r\n    }\r\n\r\n    &__links {\r\n        display: flex;\r\n        align-items: center;\r\n        list-style: none;\r\n    }\r\n\r\n    &__item {\r\n        margin-left: 4rem;\r\n    }\r\n\r\n    &__link:link,\r\n    &__link:visited {\r\n        display: block;\r\n        font-size: 1.7rem;\r\n        font-weight: 400;\r\n        color: inherit;\r\n        text-decoration: none;\r\n        transition: $transition;\r\n    }\r\n\r\n    &__link--btn:link,\r\n    &__link--btn:visited {\r\n        padding: 0.8rem 2.5rem;\r\n        border-radius: 3rem;\r\n        background-color: $primary-color;\r\n        color: #222;\r\n    }\r\n\r\n    &__link--btn:hover,\r\n    &__link--btn:active {\r\n        color: inherit;\r\n        background-color: $primary-color-darker;\r\n        color: #333;\r\n    }\r\n}\r\n\r\n.header {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    height: 100vh;\r\n    padding: 0 3rem;\r\n\r\n    &__title {\r\n        flex: 1;\r\n        display: grid;\r\n        max-width: 115rem;\r\n        grid-template-columns: 3fr 2fr;\r\n        row-gap: 3rem;\r\n        align-content: center;\r\n        justify-content: center;\r\n        align-items: start;\r\n        justify-items: start;\r\n    }\r\n\r\n    &__img {\r\n        width: 100%;\r\n        grid-column: 2 / 3;\r\n        grid-row: 1 / span 4;\r\n        transform: translateY(-6rem);\r\n    }\r\n}\r\n\r\nh1 {\r\n    font-size: 5.5rem;\r\n    line-height: 1.35;\r\n}\r\n\r\nh4 {\r\n    font-size: 2.4rem;\r\n    font-weight: 500;\r\n}\r\n\r\n.highlight {\r\n    position: relative;\r\n}\r\n\r\n.highlight::after {\r\n    display: block;\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    height: 100%;\r\n    width: 100%;\r\n    z-index: -1;\r\n    opacity: 0.7;\r\n    transform: scale(1.07, 1.05) skewX(-15deg);\r\n    background-image: $primary-gradient;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".nav {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  height: 9rem;\n  width: 100%;\n  padding: 0 6rem;\n  z-index: 1;\n}\n.nav__logo {\n  height: 4.5rem;\n  transition: all 0.3s;\n}\n.nav__links {\n  display: flex;\n  align-items: center;\n  list-style: none;\n}\n.nav__item {\n  margin-left: 4rem;\n}\n.nav__link:link, .nav__link:visited {\n  display: block;\n  font-size: 1.7rem;\n  font-weight: 400;\n  color: inherit;\n  text-decoration: none;\n  transition: all 0.3s;\n}\n.nav__link--btn:link, .nav__link--btn:visited {\n  padding: 0.8rem 2.5rem;\n  border-radius: 3rem;\n  background-color: #e069cb;\n  color: #222;\n}\n.nav__link--btn:hover, .nav__link--btn:active {\n  color: inherit;\n  background-color: #bb4aa6;\n  color: #333;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  height: 100vh;\n  padding: 0 3rem;\n}\n.header__title {\n  flex: 1;\n  display: grid;\n  max-width: 115rem;\n  grid-template-columns: 3fr 2fr;\n  row-gap: 3rem;\n  align-content: center;\n  justify-content: center;\n  align-items: start;\n  justify-items: start;\n}\n.header__img {\n  width: 100%;\n  grid-column: 2/3;\n  grid-row: 1/span 4;\n  transform: translateY(-6rem);\n}\n\n.sticky {\n  position: fixed;\n  background-color: rgba(255, 255, 255, 0.95);\n}\n\nh1 {\n  font-size: 5.5rem;\n  line-height: 1.35;\n}\n\nh4 {\n  font-size: 2.4rem;\n  font-weight: 500;\n}\n\n.highlight {\n  position: relative;\n}\n\n.highlight::after {\n  display: block;\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  z-index: -1;\n  opacity: 0.7;\n  transform: scale(1.07, 1.05) skewX(-15deg);\n  background-image: linear-gradient(to top left, #bb4aa6, #e069cb);\n}", "",{"version":3,"sources":["webpack://./src/styles/header.scss"],"names":[],"mappings":"AAKA;EACI,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,YAAA;EACA,WAAA;EACA,eAAA;EACA,UAAA;AAJJ;AAMI;EACI,cAAA;EACA,oBAbK;AASb;AAOI;EACI,aAAA;EACA,mBAAA;EACA,gBAAA;AALR;AAQI;EACI,iBAAA;AANR;AASI;EAEI,cAAA;EACA,iBAAA;EACA,gBAAA;EACA,cAAA;EACA,qBAAA;EACA,oBAjCK;AAyBb;AAWI;EAEI,sBAAA;EACA,mBAAA;EACA,yBA3CQ;EA4CR,WAAA;AAVR;AAaI;EAEI,cAAA;EACA,yBAjDe;EAkDf,WAAA;AAZR;;AAgBA;EACI,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,aAAA;EACA,eAAA;AAbJ;AAeI;EACI,OAAA;EACA,aAAA;EACA,iBAAA;EACA,8BAAA;EACA,aAAA;EACA,qBAAA;EACA,uBAAA;EACA,kBAAA;EACA,oBAAA;AAbR;AAgBI;EACI,WAAA;EACA,gBAAA;EACA,kBAAA;EACA,4BAAA;AAdR;;AAkBA;EACI,eAAA;EACA,2CAAA;AAfJ;;AAkBA;EACI,iBAAA;EACA,iBAAA;AAfJ;;AAkBA;EACI,iBAAA;EACA,gBAAA;AAfJ;;AAkBA;EACI,kBAAA;AAfJ;;AAkBA;EACI,cAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA;EACA,OAAA;EACA,YAAA;EACA,WAAA;EACA,WAAA;EACA,YAAA;EACA,0CAAA;EACA,gEA9Ge;AA+FnB","sourcesContent":["$primary-color: #e069cb;\r\n$primary-color-darker: #bb4aa6;\r\n$primary-gradient: linear-gradient(to top left, $primary-color-darker, $primary-color);\r\n$transition: all 0.3s;\r\n\r\n.nav {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    height: 9rem;\r\n    width: 100%;\r\n    padding: 0 6rem;\r\n    z-index: 1;\r\n\r\n    &__logo {\r\n        height: 4.5rem;\r\n        transition: $transition;\r\n    }\r\n\r\n    &__links {\r\n        display: flex;\r\n        align-items: center;\r\n        list-style: none;\r\n    }\r\n\r\n    &__item {\r\n        margin-left: 4rem;\r\n    }\r\n\r\n    &__link:link,\r\n    &__link:visited {\r\n        display: block;\r\n        font-size: 1.7rem;\r\n        font-weight: 400;\r\n        color: inherit;\r\n        text-decoration: none;\r\n        transition: $transition;\r\n    }\r\n\r\n    &__link--btn:link,\r\n    &__link--btn:visited {\r\n        padding: 0.8rem 2.5rem;\r\n        border-radius: 3rem;\r\n        background-color: $primary-color;\r\n        color: #222;\r\n    }\r\n\r\n    &__link--btn:hover,\r\n    &__link--btn:active {\r\n        color: inherit;\r\n        background-color: $primary-color-darker;\r\n        color: #333;\r\n    }\r\n}\r\n\r\n.header {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    height: 100vh;\r\n    padding: 0 3rem;\r\n\r\n    &__title {\r\n        flex: 1;\r\n        display: grid;\r\n        max-width: 115rem;\r\n        grid-template-columns: 3fr 2fr;\r\n        row-gap: 3rem;\r\n        align-content: center;\r\n        justify-content: center;\r\n        align-items: start;\r\n        justify-items: start;\r\n    }\r\n\r\n    &__img {\r\n        width: 100%;\r\n        grid-column: 2 / 3;\r\n        grid-row: 1 / span 4;\r\n        transform: translateY(-6rem);\r\n    }\r\n}\r\n\r\n.sticky {\r\n    position: fixed;\r\n    background-color: rgb(255, 255, 255, 0.95);\r\n}\r\n\r\nh1 {\r\n    font-size: 5.5rem;\r\n    line-height: 1.35;\r\n}\r\n\r\nh4 {\r\n    font-size: 2.4rem;\r\n    font-weight: 500;\r\n}\r\n\r\n.highlight {\r\n    position: relative;\r\n}\r\n\r\n.highlight::after {\r\n    display: block;\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    height: 100%;\r\n    width: 100%;\r\n    z-index: -1;\r\n    opacity: 0.7;\r\n    transform: scale(1.07, 1.05) skewX(-15deg);\r\n    background-image: $primary-gradient;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -218,7 +218,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nhtml {\n  font-size: 62.5%;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  color: #444;\n  line-height: 1.9;\n  background-color: #f3f3f3;\n}\n\n.section {\n  padding: 15rem 3rem;\n  border-top: 1px solid #ddd;\n  transition: transform 1s, opacity 1s;\n}\n.section__title {\n  max-width: 80rem;\n  margin: 0 auto 8rem auto;\n}\n.section__header {\n  font-size: 1.8rem;\n  font-weight: 600;\n  text-transform: uppercase;\n  color: #e069cb;\n  margin-bottom: 1rem;\n}\n.section__description {\n  font-size: 4rem;\n  line-height: 1.3;\n  font-weight: 500;\n}\n\n.btn {\n  display: inline-block;\n  background-color: #e069cb;\n  font-size: 1.6rem;\n  font-family: inherit;\n  font-weight: 500;\n  border: none;\n  padding: 1.25rem 4.5rem;\n  border-radius: 10rem;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n\n.btn:hover {\n  background-color: #bb4aa6;\n}\n\n.btn--text {\n  display: inline-block;\n  background: none;\n  font-size: 1.7rem;\n  font-family: inherit;\n  font-weight: 500;\n  color: #e069cb;\n  border: none;\n  border-bottom: 1px solid currentColor;\n  padding-bottom: 2px;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n\np {\n  color: #666;\n}\n\nbutton:focus {\n  outline: none;\n}\n\nimg {\n  transition: filter 0.5s;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAIA;EACI,SAAA;EACA,UAAA;EACA,mBAAA;AAHJ;;AAMA;EACI,gBAAA;EACA,sBAAA;AAHJ;;AAMA;EACI,kCAAA;EACA,gBAAA;EACA,WAAA;EACA,gBAAA;EACA,yBAAA;AAHJ;;AAMA;EACI,mBAAA;EACA,0BAAA;EAEA,oCAAA;AAJJ;AAMI;EACI,gBAAA;EACA,wBAAA;AAJR;AAOI;EACI,iBAAA;EACA,gBAAA;EACA,yBAAA;EACA,cAtCQ;EAuCR,mBAAA;AALR;AAQI;EACI,eAAA;EACA,gBAAA;EACA,gBAAA;AANR;;AAeA;EACI,qBAAA;EACA,yBAxDY;EAyDZ,iBAAA;EACA,oBAAA;EACA,gBAAA;EACA,YAAA;EACA,uBAAA;EACA,oBAAA;EACA,eAAA;EACA,oBA9DS;AAkDb;;AAeA;EACI,yBAnEmB;AAuDvB;;AAeA;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EACA,oBAAA;EACA,gBAAA;EACA,cA7EY;EA8EZ,YAAA;EACA,qCAAA;EACA,mBAAA;EACA,eAAA;EACA,oBAhFS;AAoEb;;AAeA;EACI,WAAA;AAZJ;;AAeA;EACI,aAAA;AAZJ;;AAeA;EACI,uBAAA;AAZJ","sourcesContent":["$primary-color: #e069cb;\r\n$primary-color-darker: #bb4aa6;\r\n$transition: all 0.3s;\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: inherit;\r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%;\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n    font-family: 'Poppins', sans-serif;\r\n    font-weight: 300;\r\n    color: #444;\r\n    line-height: 1.9;\r\n    background-color: #f3f3f3;\r\n}\r\n\r\n.section {\r\n    padding: 15rem 3rem;\r\n    border-top: 1px solid #ddd;\r\n\r\n    transition: transform 1s, opacity 1s;\r\n\r\n    &__title {\r\n        max-width: 80rem;\r\n        margin: 0 auto 8rem auto;\r\n    }\r\n\r\n    &__header {\r\n        font-size: 1.8rem;\r\n        font-weight: 600;\r\n        text-transform: uppercase;\r\n        color: $primary-color;\r\n        margin-bottom: 1rem;\r\n    }\r\n\r\n    &__description {\r\n        font-size: 4rem;\r\n        line-height: 1.3;\r\n        font-weight: 500;\r\n    }\r\n}\r\n\r\n// .section--hidden {\r\n//     opacity: 0;\r\n//     transform: translateY(8rem);\r\n// }\r\n\r\n.btn {\r\n    display: inline-block;\r\n    background-color: $primary-color;\r\n    font-size: 1.6rem;\r\n    font-family: inherit;\r\n    font-weight: 500;\r\n    border: none;\r\n    padding: 1.25rem 4.5rem;\r\n    border-radius: 10rem;\r\n    cursor: pointer;\r\n    transition: $transition;\r\n}\r\n\r\n.btn:hover {\r\n    background-color: $primary-color-darker;\r\n}\r\n\r\n.btn--text {\r\n    display: inline-block;\r\n    background: none;\r\n    font-size: 1.7rem;\r\n    font-family: inherit;\r\n    font-weight: 500;\r\n    color: $primary-color;\r\n    border: none;\r\n    border-bottom: 1px solid currentColor;\r\n    padding-bottom: 2px;\r\n    cursor: pointer;\r\n    transition: $transition;\r\n}\r\n\r\np {\r\n    color: #666;\r\n}\r\n\r\nbutton:focus {\r\n    outline: none;\r\n}\r\n\r\nimg {\r\n    transition: filter 0.5s;\r\n}\r\n\r\n// .lazy-img {\r\n//     filter: blur(20px);\r\n// }\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nhtml {\n  font-size: 62.5%;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 300;\n  color: #444;\n  line-height: 1.9;\n  background-color: #f3f3f3;\n}\n\n.section {\n  padding: 15rem 3rem;\n  border-top: 1px solid #ddd;\n  transition: transform 1s, opacity 1s;\n}\n.section__title {\n  max-width: 80rem;\n  margin: 0 auto 8rem auto;\n}\n.section__header {\n  font-size: 1.8rem;\n  font-weight: 600;\n  text-transform: uppercase;\n  color: #e069cb;\n  margin-bottom: 1rem;\n}\n.section__description {\n  font-size: 4rem;\n  line-height: 1.3;\n  font-weight: 500;\n}\n\n.section--hidden {\n  opacity: 0;\n  transform: translateY(8rem);\n}\n\n.btn {\n  display: inline-block;\n  background-color: #e069cb;\n  font-size: 1.6rem;\n  font-family: inherit;\n  font-weight: 500;\n  border: none;\n  padding: 1.25rem 4.5rem;\n  border-radius: 10rem;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n\n.btn:hover {\n  background-color: #bb4aa6;\n}\n\n.btn--text {\n  display: inline-block;\n  background: none;\n  font-size: 1.7rem;\n  font-family: inherit;\n  font-weight: 500;\n  color: #e069cb;\n  border: none;\n  border-bottom: 1px solid currentColor;\n  padding-bottom: 2px;\n  cursor: pointer;\n  transition: all 0.3s;\n}\n\np {\n  color: #666;\n}\n\nbutton:focus {\n  outline: none;\n}\n\nimg {\n  transition: filter 0.5s;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAIA;EACI,SAAA;EACA,UAAA;EACA,mBAAA;AAHJ;;AAMA;EACI,gBAAA;EACA,sBAAA;AAHJ;;AAMA;EACI,kCAAA;EACA,gBAAA;EACA,WAAA;EACA,gBAAA;EACA,yBAAA;AAHJ;;AAMA;EACI,mBAAA;EACA,0BAAA;EAEA,oCAAA;AAJJ;AAMI;EACI,gBAAA;EACA,wBAAA;AAJR;AAOI;EACI,iBAAA;EACA,gBAAA;EACA,yBAAA;EACA,cAtCQ;EAuCR,mBAAA;AALR;AAQI;EACI,eAAA;EACA,gBAAA;EACA,gBAAA;AANR;;AAUA;EACI,UAAA;EACA,2BAAA;AAPJ;;AAUA;EACI,qBAAA;EACA,yBAxDY;EAyDZ,iBAAA;EACA,oBAAA;EACA,gBAAA;EACA,YAAA;EACA,uBAAA;EACA,oBAAA;EACA,eAAA;EACA,oBA9DS;AAuDb;;AAUA;EACI,yBAnEmB;AA4DvB;;AAUA;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EACA,oBAAA;EACA,gBAAA;EACA,cA7EY;EA8EZ,YAAA;EACA,qCAAA;EACA,mBAAA;EACA,eAAA;EACA,oBAhFS;AAyEb;;AAUA;EACI,WAAA;AAPJ;;AAUA;EACI,aAAA;AAPJ;;AAUA;EACI,uBAAA;AAPJ","sourcesContent":["$primary-color: #e069cb;\r\n$primary-color-darker: #bb4aa6;\r\n$transition: all 0.3s;\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: inherit;\r\n}\r\n\r\nhtml {\r\n    font-size: 62.5%;\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n    font-family: 'Poppins', sans-serif;\r\n    font-weight: 300;\r\n    color: #444;\r\n    line-height: 1.9;\r\n    background-color: #f3f3f3;\r\n}\r\n\r\n.section {\r\n    padding: 15rem 3rem;\r\n    border-top: 1px solid #ddd;\r\n\r\n    transition: transform 1s, opacity 1s;\r\n\r\n    &__title {\r\n        max-width: 80rem;\r\n        margin: 0 auto 8rem auto;\r\n    }\r\n\r\n    &__header {\r\n        font-size: 1.8rem;\r\n        font-weight: 600;\r\n        text-transform: uppercase;\r\n        color: $primary-color;\r\n        margin-bottom: 1rem;\r\n    }\r\n\r\n    &__description {\r\n        font-size: 4rem;\r\n        line-height: 1.3;\r\n        font-weight: 500;\r\n    }\r\n}\r\n\r\n.section--hidden {\r\n    opacity: 0;\r\n    transform: translateY(8rem);\r\n}\r\n\r\n.btn {\r\n    display: inline-block;\r\n    background-color: $primary-color;\r\n    font-size: 1.6rem;\r\n    font-family: inherit;\r\n    font-weight: 500;\r\n    border: none;\r\n    padding: 1.25rem 4.5rem;\r\n    border-radius: 10rem;\r\n    cursor: pointer;\r\n    transition: $transition;\r\n}\r\n\r\n.btn:hover {\r\n    background-color: $primary-color-darker;\r\n}\r\n\r\n.btn--text {\r\n    display: inline-block;\r\n    background: none;\r\n    font-size: 1.7rem;\r\n    font-family: inherit;\r\n    font-weight: 500;\r\n    color: $primary-color;\r\n    border: none;\r\n    border-bottom: 1px solid currentColor;\r\n    padding-bottom: 2px;\r\n    cursor: pointer;\r\n    transition: $transition;\r\n}\r\n\r\np {\r\n    color: #666;\r\n}\r\n\r\nbutton:focus {\r\n    outline: none;\r\n}\r\n\r\nimg {\r\n    transition: filter 0.5s;\r\n}\r\n\r\n// .lazy-img {\r\n//     filter: blur(20px);\r\n// }\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -322,7 +322,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n.slider {\n  position: relative;\n  max-width: 100rem;\n  height: 50rem;\n  margin: 0 auto;\n  overflow: hidden;\n}\n.slider .slide {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 50rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: transform 1;\n}\n.slider .slide .testimonial {\n  width: 65%;\n  position: relative;\n}\n.slider .slide .testimonial::before {\n  content: \"“\";\n  position: absolute;\n  top: -5.7rem;\n  left: -6.8rem;\n  line-height: 1;\n  font-size: 20rem;\n  font-family: inherit;\n  color: var(--color-primary);\n  z-index: -1;\n}\n.slider .slide .testimonial__header {\n  font-size: 2.25rem;\n  font-weight: 500;\n  margin-bottom: 1.5rem;\n}\n.slider .slide .testimonial__text {\n  font-size: 1.7rem;\n  margin-bottom: 3.5rem;\n  color: #666;\n}\n.slider .slide .testimonial__author {\n  margin-left: 3rem;\n  font-style: normal;\n  display: grid;\n  grid-template-columns: 6.5rem 1fr;\n  column-gap: 2rem;\n}\n.slider .slide .testimonial__photo {\n  grid-row: 1/span 2;\n  height: 100%;\n  width: 6.5rem;\n  border-radius: 50%;\n  object-fit: cover;\n}\n.slider .slide .testimonial__name {\n  font-size: 1.7rem;\n  font-weight: 500;\n  align-self: end;\n  margin: 0;\n}\n.slider .slide .testimonial__location {\n  font-size: 1.5rem;\n}\n.slider__btn {\n  position: absolute;\n  top: 50%;\n  z-index: 1;\n  border: none;\n  background: rgba(255, 255, 255, 0.7);\n  font-family: inherit;\n  color: #333;\n  border-radius: 50%;\n  height: 5.5rem;\n  width: 5.5rem;\n  font-size: 3.25rem;\n  cursor: pointer;\n}\n.slider__btn--left {\n  left: 6%;\n  transform: translate(-50%, -45%);\n}\n.slider__btn--right {\n  right: 6%;\n  transform: translate(50%, -45%);\n}\n.slider .dots {\n  display: flex;\n  position: absolute;\n  bottom: 5%;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.slider .dots__dot {\n  border: none;\n  background-color: #bebebe;\n  opacity: 0.7;\n  height: 1rem;\n  width: 1rem;\n  border-radius: 50%;\n  margin-right: 1.75rem;\n  cursor: pointer;\n  transition: all 0.5s;\n}\n.slider .dots__dot:last-child {\n  margin: 0;\n}\n.slider .dots__dot--active {\n  background-color: #888;\n  opacity: 1;\n}\n\n.section__title--testimonials {\n  margin-bottom: 4rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/slider.scss"],"names":[],"mappings":"AAAA,gBAAgB;AAAhB;EACI,kBAAA;EACA,iBAAA;EACA,aAAA;EACA,cAAA;EACA,gBAAA;AAEJ;AAAI;EACI,kBAAA;EACA,MAAA;EACA,WAAA;EACA,aAAA;EAEA,aAAA;EACA,mBAAA;EACA,uBAAA;EAEA,uBAAA;AAAR;AAEQ;EACI,UAAA;EACA,kBAAA;AAAZ;AAEY;EACI,YAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;EACA,cAAA;EACA,gBAAA;EACA,oBAAA;EACA,2BAAA;EACA,WAAA;AAAhB;AAGY;EACI,kBAAA;EACA,gBAAA;EACA,qBAAA;AADhB;AAIY;EACI,iBAAA;EACA,qBAAA;EACA,WAAA;AAFhB;AAKY;EACI,iBAAA;EACA,kBAAA;EAEA,aAAA;EACA,iCAAA;EACA,gBAAA;AAJhB;AAOY;EACI,kBAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;EACA,iBAAA;AALhB;AAQY;EACI,iBAAA;EACA,gBAAA;EACA,eAAA;EACA,SAAA;AANhB;AASY;EACI,iBAAA;AAPhB;AAYI;EACI,kBAAA;EACA,QAAA;EACA,UAAA;EACA,YAAA;EACA,oCAAA;EACA,oBAAA;EACA,WAAA;EACA,kBAAA;EACA,cAAA;EACA,aAAA;EACA,kBAAA;EACA,eAAA;AAVR;AAYQ;EACI,QAAA;EACA,gCAAA;AAVZ;AAaQ;EACI,SAAA;EACA,+BAAA;AAXZ;AAeI;EACI,aAAA;EACA,kBAAA;EACA,UAAA;EACA,SAAA;EACA,2BAAA;AAbR;AAeQ;EACI,YAAA;EACA,yBAAA;EACA,YAAA;EACA,YAAA;EACA,WAAA;EACA,kBAAA;EACA,qBAAA;EACA,eAAA;EACA,oBAAA;AAbZ;AAeY;EACI,SAAA;AAbhB;AAgBY;EACI,sBAAA;EACA,UAAA;AAdhB;;AAoBA;EACI,mBAAA;AAjBJ","sourcesContent":[".slider {\r\n    position: relative;\r\n    max-width: 100rem;\r\n    height: 50rem;\r\n    margin: 0 auto;\r\n    overflow: hidden;\r\n\r\n    .slide {\r\n        position: absolute;\r\n        top: 0;\r\n        width: 100%;\r\n        height: 50rem;\r\n\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n\r\n        transition: transform 1;\r\n\r\n        .testimonial {\r\n            width: 65%;\r\n            position: relative;\r\n\r\n            &::before {\r\n                content: '\\201C';\r\n                position: absolute;\r\n                top: -5.7rem;\r\n                left: -6.8rem;\r\n                line-height: 1;\r\n                font-size: 20rem;\r\n                font-family: inherit;\r\n                color: var(--color-primary);\r\n                z-index: -1;\r\n            }\r\n\r\n            &__header {\r\n                font-size: 2.25rem;\r\n                font-weight: 500;\r\n                margin-bottom: 1.5rem;\r\n            }\r\n\r\n            &__text {\r\n                font-size: 1.7rem;\r\n                margin-bottom: 3.5rem;\r\n                color: #666;\r\n            }\r\n\r\n            &__author {\r\n                margin-left: 3rem;\r\n                font-style: normal;\r\n\r\n                display: grid;\r\n                grid-template-columns: 6.5rem 1fr;\r\n                column-gap: 2rem;\r\n            }\r\n\r\n            &__photo {\r\n                grid-row: 1 / span 2;\r\n                height: 100%;\r\n                width: 6.5rem;\r\n                border-radius: 50%;\r\n                object-fit: cover;\r\n            }\r\n\r\n            &__name {\r\n                font-size: 1.7rem;\r\n                font-weight: 500;\r\n                align-self: end;\r\n                margin: 0;\r\n            }\r\n\r\n            &__location {\r\n                font-size: 1.5rem;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__btn {\r\n        position: absolute;\r\n        top: 50%;\r\n        z-index: 1;\r\n        border: none;\r\n        background: rgba(255, 255, 255, 0.7);\r\n        font-family: inherit;\r\n        color: #333;\r\n        border-radius: 50%;\r\n        height: 5.5rem;\r\n        width: 5.5rem;\r\n        font-size: 3.25rem;\r\n        cursor: pointer;\r\n\r\n        &--left {\r\n            left: 6%;\r\n            transform: translate(-50%, -45%);\r\n        }\r\n\r\n        &--right {\r\n            right: 6%;\r\n            transform: translate(50%, -45%);\r\n        }\r\n    }\r\n\r\n    .dots {\r\n        display: flex;\r\n        position: absolute;\r\n        bottom: 5%;\r\n        left: 50%;\r\n        transform: translateX(-50%);\r\n\r\n        &__dot {\r\n            border: none;\r\n            background-color: #bebebe;\r\n            opacity: 0.7;\r\n            height: 1rem;\r\n            width: 1rem;\r\n            border-radius: 50%;\r\n            margin-right: 1.75rem;\r\n            cursor: pointer;\r\n            transition: all 0.5s;\r\n\r\n            &:last-child {\r\n                margin: 0;\r\n            }\r\n\r\n            &--active {\r\n                background-color: #888;\r\n                opacity: 1;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.section__title--testimonials {\r\n    margin-bottom: 4rem;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@charset \"UTF-8\";\n.slider {\n  position: relative;\n  max-width: 100rem;\n  height: 50rem;\n  margin: 0 auto;\n  overflow: hidden;\n}\n.slider .slide {\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 50rem;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: transform 1s;\n}\n.slider .slide .testimonial {\n  width: 65%;\n  position: relative;\n}\n.slider .slide .testimonial::before {\n  content: \"“\";\n  position: absolute;\n  top: -5.7rem;\n  left: -6.8rem;\n  line-height: 1;\n  font-size: 20rem;\n  font-family: inherit;\n  color: #e069cb;\n  z-index: -1;\n}\n.slider .slide .testimonial__header {\n  font-size: 2.25rem;\n  font-weight: 500;\n  margin-bottom: 1.5rem;\n}\n.slider .slide .testimonial__text {\n  font-size: 1.7rem;\n  margin-bottom: 3.5rem;\n  color: #666;\n}\n.slider .slide .testimonial__author {\n  margin-left: 3rem;\n  font-style: normal;\n  display: grid;\n  grid-template-columns: 6.5rem 1fr;\n  column-gap: 2rem;\n}\n.slider .slide .testimonial__photo {\n  grid-row: 1/span 2;\n  height: 100%;\n  width: 6.5rem;\n  border-radius: 50%;\n  object-fit: cover;\n}\n.slider .slide .testimonial__name {\n  font-size: 1.7rem;\n  font-weight: 500;\n  align-self: end;\n  margin: 0;\n}\n.slider .slide .testimonial__location {\n  font-size: 1.5rem;\n}\n.slider__btn {\n  position: absolute;\n  top: 50%;\n  z-index: 1;\n  border: none;\n  background: rgba(255, 255, 255, 0.7);\n  font-family: inherit;\n  color: #333;\n  border-radius: 50%;\n  height: 5.5rem;\n  width: 5.5rem;\n  font-size: 3.25rem;\n  cursor: pointer;\n}\n.slider__btn--left {\n  left: 6%;\n  transform: translate(-50%, -45%);\n}\n.slider__btn--right {\n  right: 6%;\n  transform: translate(50%, -45%);\n}\n.slider .dots {\n  display: flex;\n  position: absolute;\n  bottom: 5%;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.slider .dots__dot {\n  border: none;\n  background-color: #bebebe;\n  opacity: 0.7;\n  height: 1rem;\n  width: 1rem;\n  border-radius: 50%;\n  margin-right: 1.75rem;\n  cursor: pointer;\n  transition: all 0.5s;\n}\n.slider .dots__dot:last-child {\n  margin: 0;\n}\n.slider .dots__dot--active {\n  background-color: #888;\n  opacity: 1;\n}\n\n.section__title--testimonials {\n  margin-bottom: 4rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/slider.scss"],"names":[],"mappings":"AAAA,gBAAgB;AAEhB;EACI,kBAAA;EACA,iBAAA;EACA,aAAA;EACA,cAAA;EACA,gBAAA;AAAJ;AAEI;EACI,kBAAA;EACA,MAAA;EACA,WAAA;EACA,aAAA;EAEA,aAAA;EACA,mBAAA;EACA,uBAAA;EAEA,wBAAA;AAFR;AAIQ;EACI,UAAA;EACA,kBAAA;AAFZ;AAIY;EACI,YAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;EACA,cAAA;EACA,gBAAA;EACA,oBAAA;EACA,cAjCA;EAkCA,WAAA;AAFhB;AAKY;EACI,kBAAA;EACA,gBAAA;EACA,qBAAA;AAHhB;AAMY;EACI,iBAAA;EACA,qBAAA;EACA,WAAA;AAJhB;AAOY;EACI,iBAAA;EACA,kBAAA;EAEA,aAAA;EACA,iCAAA;EACA,gBAAA;AANhB;AASY;EACI,kBAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;EACA,iBAAA;AAPhB;AAUY;EACI,iBAAA;EACA,gBAAA;EACA,eAAA;EACA,SAAA;AARhB;AAWY;EACI,iBAAA;AAThB;AAcI;EACI,kBAAA;EACA,QAAA;EACA,UAAA;EACA,YAAA;EACA,oCAAA;EACA,oBAAA;EACA,WAAA;EACA,kBAAA;EACA,cAAA;EACA,aAAA;EACA,kBAAA;EACA,eAAA;AAZR;AAcQ;EACI,QAAA;EACA,gCAAA;AAZZ;AAeQ;EACI,SAAA;EACA,+BAAA;AAbZ;AAiBI;EACI,aAAA;EACA,kBAAA;EACA,UAAA;EACA,SAAA;EACA,2BAAA;AAfR;AAiBQ;EACI,YAAA;EACA,yBAAA;EACA,YAAA;EACA,YAAA;EACA,WAAA;EACA,kBAAA;EACA,qBAAA;EACA,eAAA;EACA,oBAAA;AAfZ;AAiBY;EACI,SAAA;AAfhB;AAkBY;EACI,sBAAA;EACA,UAAA;AAhBhB;;AAsBA;EACI,mBAAA;AAnBJ","sourcesContent":["$primary-color: #e069cb;\r\n\r\n.slider {\r\n    position: relative;\r\n    max-width: 100rem;\r\n    height: 50rem;\r\n    margin: 0 auto;\r\n    overflow: hidden;\r\n\r\n    .slide {\r\n        position: absolute;\r\n        top: 0;\r\n        width: 100%;\r\n        height: 50rem;\r\n\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n\r\n        transition: transform 1s;\r\n\r\n        .testimonial {\r\n            width: 65%;\r\n            position: relative;\r\n\r\n            &::before {\r\n                content: '\\201C';\r\n                position: absolute;\r\n                top: -5.7rem;\r\n                left: -6.8rem;\r\n                line-height: 1;\r\n                font-size: 20rem;\r\n                font-family: inherit;\r\n                color: $primary-color;\r\n                z-index: -1;\r\n            }\r\n\r\n            &__header {\r\n                font-size: 2.25rem;\r\n                font-weight: 500;\r\n                margin-bottom: 1.5rem;\r\n            }\r\n\r\n            &__text {\r\n                font-size: 1.7rem;\r\n                margin-bottom: 3.5rem;\r\n                color: #666;\r\n            }\r\n\r\n            &__author {\r\n                margin-left: 3rem;\r\n                font-style: normal;\r\n\r\n                display: grid;\r\n                grid-template-columns: 6.5rem 1fr;\r\n                column-gap: 2rem;\r\n            }\r\n\r\n            &__photo {\r\n                grid-row: 1 / span 2;\r\n                height: 100%;\r\n                width: 6.5rem;\r\n                border-radius: 50%;\r\n                object-fit: cover;\r\n            }\r\n\r\n            &__name {\r\n                font-size: 1.7rem;\r\n                font-weight: 500;\r\n                align-self: end;\r\n                margin: 0;\r\n            }\r\n\r\n            &__location {\r\n                font-size: 1.5rem;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__btn {\r\n        position: absolute;\r\n        top: 50%;\r\n        z-index: 1;\r\n        border: none;\r\n        background: rgba(255, 255, 255, 0.7);\r\n        font-family: inherit;\r\n        color: #333;\r\n        border-radius: 50%;\r\n        height: 5.5rem;\r\n        width: 5.5rem;\r\n        font-size: 3.25rem;\r\n        cursor: pointer;\r\n\r\n        &--left {\r\n            left: 6%;\r\n            transform: translate(-50%, -45%);\r\n        }\r\n\r\n        &--right {\r\n            right: 6%;\r\n            transform: translate(50%, -45%);\r\n        }\r\n    }\r\n\r\n    .dots {\r\n        display: flex;\r\n        position: absolute;\r\n        bottom: 5%;\r\n        left: 50%;\r\n        transform: translateX(-50%);\r\n\r\n        &__dot {\r\n            border: none;\r\n            background-color: #bebebe;\r\n            opacity: 0.7;\r\n            height: 1rem;\r\n            width: 1rem;\r\n            border-radius: 50%;\r\n            margin-right: 1.75rem;\r\n            cursor: pointer;\r\n            transition: all 0.5s;\r\n\r\n            &:last-child {\r\n                margin: 0;\r\n            }\r\n\r\n            &--active {\r\n                background-color: #888;\r\n                opacity: 1;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.section__title--testimonials {\r\n    margin-bottom: 4rem;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -424,6 +424,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("assets/logo.png");
+
+/***/ }),
+
+/***/ "./src/assets/low_res_01.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/low_res_01.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("assets/low_res_01.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/low_res_02.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/low_res_02.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("assets/low_res_02.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/low_res_03.jpg":
+/*!***********************************!*\
+  !*** ./src/assets/low_res_03.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("assets/low_res_03.jpg");
 
 /***/ }),
 
@@ -1306,23 +1348,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/logo.png */ "./src/assets/logo.png");
 /* harmony import */ var _assets_hero_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/hero.png */ "./src/assets/hero.png");
 /* harmony import */ var _assets_online_payment_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/online_payment.jpg */ "./src/assets/online_payment.jpg");
-/* harmony import */ var _assets_account_app_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/account_app.jpg */ "./src/assets/account_app.jpg");
-/* harmony import */ var _assets_contactless_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/contactless.jpg */ "./src/assets/contactless.jpg");
-/* harmony import */ var _assets_user_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/user-1.jpg */ "./src/assets/user-1.jpg");
-/* harmony import */ var _assets_user_2_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/user-2.jpg */ "./src/assets/user-2.jpg");
-/* harmony import */ var _assets_user_3_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/user-3.jpg */ "./src/assets/user-3.jpg");
-/* harmony import */ var _assets_icon_white_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/icon_white.png */ "./src/assets/icon_white.png");
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/header.scss */ "./src/styles/header.scss");
-/* harmony import */ var _styles_features_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styles/features.scss */ "./src/styles/features.scss");
-/* harmony import */ var _styles_operations_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styles/operations.scss */ "./src/styles/operations.scss");
-/* harmony import */ var _styles_slider_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./styles/slider.scss */ "./src/styles/slider.scss");
-/* harmony import */ var _styles_signup_scss__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./styles/signup.scss */ "./src/styles/signup.scss");
-/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./styles/footer.scss */ "./src/styles/footer.scss");
-/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./styles/modal.scss */ "./src/styles/modal.scss");
+/* harmony import */ var _assets_low_res_01_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/low_res_01.jpg */ "./src/assets/low_res_01.jpg");
+/* harmony import */ var _assets_account_app_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/account_app.jpg */ "./src/assets/account_app.jpg");
+/* harmony import */ var _assets_low_res_02_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/low_res_02.jpg */ "./src/assets/low_res_02.jpg");
+/* harmony import */ var _assets_contactless_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/contactless.jpg */ "./src/assets/contactless.jpg");
+/* harmony import */ var _assets_low_res_03_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/low_res_03.jpg */ "./src/assets/low_res_03.jpg");
+/* harmony import */ var _assets_user_1_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/user-1.jpg */ "./src/assets/user-1.jpg");
+/* harmony import */ var _assets_user_2_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/user-2.jpg */ "./src/assets/user-2.jpg");
+/* harmony import */ var _assets_user_3_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/user-3.jpg */ "./src/assets/user-3.jpg");
+/* harmony import */ var _assets_icon_white_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/icon_white.png */ "./src/assets/icon_white.png");
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./styles/header.scss */ "./src/styles/header.scss");
+/* harmony import */ var _styles_features_scss__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./styles/features.scss */ "./src/styles/features.scss");
+/* harmony import */ var _styles_operations_scss__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./styles/operations.scss */ "./src/styles/operations.scss");
+/* harmony import */ var _styles_slider_scss__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./styles/slider.scss */ "./src/styles/slider.scss");
+/* harmony import */ var _styles_signup_scss__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./styles/signup.scss */ "./src/styles/signup.scss");
+/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./styles/footer.scss */ "./src/styles/footer.scss");
+/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./styles/modal.scss */ "./src/styles/modal.scss");
 
 
 //Files
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
 
 
 
@@ -1348,6 +1402,13 @@ var modal = document.querySelector('.modal');
 var overlay = document.querySelector('.overlay');
 var btnCloseModal = document.querySelector('.btn--close-modal');
 var btnsOpenModal = document.querySelectorAll('.btn--show-modal');
+var btnScrollTo = document.querySelector('.btn-scroll-to');
+var firstSection = document.querySelector('#section--1');
+var tabsContainer = document.querySelector('.operations__tab-container');
+var tabs = document.querySelectorAll('.operations__tab');
+var tabsContent = document.querySelectorAll('.operations__content');
+var nav = document.querySelector('.nav');
+var section1 = document.getElementById('section--1');
 var openModal = function openModal(e) {
   e.preventDefault();
   modal.classList.remove('hidden');
@@ -1367,8 +1428,6 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
-var btnScrollTo = document.querySelector('.btn-scroll-to');
-var firstSection = document.querySelector('#section--1');
 btnScrollTo.addEventListener('click', function () {
   // const s1coords = firstSection.getBoundingClientRect();
   // window.scrollTo({
@@ -1381,8 +1440,187 @@ btnScrollTo.addEventListener('click', function () {
     behavior: 'smooth'
   });
 });
+
+// document.querySelectorAll('.nav__link').forEach(function (el) {
+//     el.addEventListener('click', function (e) {
+//         e.preventDefault();
+//         const id = this.getAttribute('href');
+//         console.log(id);
+//         document.querySelector(id).scrollIntoView({
+//             behavior: 'smooth',
+//         });
+//     });
+// });
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  e.preventDefault();
+  if (e.target.classList.contains('nav__link')) {
+    var id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+});
+
+//Tabbed component
+
+tabsContainer.addEventListener('click', function (e) {
+  var clicked = e.target.closest('.operations__tab');
+  if (!clicked) return;
+  tabs.forEach(function (t) {
+    return t.classList.remove('operations__tab--active');
+  });
+  clicked.classList.add('operations__tab--active');
+  tabsContent.forEach(function (c) {
+    return c.classList.remove('operations__content--active');
+  });
+  document.querySelector(".operations__content--".concat(clicked.dataset.tab)).classList.add('operations__content--active');
+});
+
+//Menu fade
+var handleHover = function handleHover(e) {
+  var _this = this;
+  if (e.target.classList.contains('nav__link')) {
+    var link = e.target;
+    var siblings = link.closest('.nav').querySelectorAll('.nav__link');
+    var logo = link.closest('.nav').querySelector('img');
+    siblings.forEach(function (el) {
+      if (el !== link) el.style.opacity = _this;
+    });
+    logo.style.opacity = this;
+  }
+};
+nav.addEventListener('mouseover', handleHover.bind(0.5));
+nav.addEventListener('mouseout', handleHover.bind(1));
+
+//Sticky nav
+// const initialCoords = section1.getBoundingClientRect();
+
+// window.addEventListener('scroll', function () {
+//     console.log(window.scrollY);
+
+//     if (window.scrollY > initialCoords.top) nav.classList.add('sticky');
+//     else nav.classList.remove('sticky');
+// });
+
+var header = document.querySelector('.header');
+var navHeight = nav.getBoundingClientRect().height;
+var stickyNav = function stickyNav(entries) {
+  var _entries = _slicedToArray(entries, 1),
+    entry = _entries[0];
+  if (!entry.isIntersecting) nav.classList.add('sticky');else nav.classList.remove('sticky');
+};
+var headerObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 0,
+  rootMargin: "-".concat(navHeight, "px")
+});
+headerObserver.observe(header);
+
+//Reveal sections
+var allSections = document.querySelectorAll('.section');
+var revealSection = function revealSection(entries, observer) {
+  var _entries2 = _slicedToArray(entries, 1),
+    entry = _entries2[0];
+  if (!entry.isIntersecting) return;
+  entry.target.classList.remove('section--hidden');
+  observer.unobserve(entry.target);
+};
+var sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15
+});
+allSections.forEach(function (section) {
+  sectionObserver.observe(section);
+  section.classList.add('section--hidden');
+});
+
+//Lazy loading images
+var imgTargets = document.querySelectorAll('img[data-src]');
+var loadImg = function loadImg(entries, observer) {
+  var _entries3 = _slicedToArray(entries, 1),
+    entry = _entries3[0];
+  if (!entry.isIntersecting) return;
+  entry.target.src = entry.target.dataset.src;
+  entry.target.addEventListener('load', function () {
+    entry.target.classList.remove('lazy-img');
+  });
+  observer.unobserve(entry.target);
+};
+var imgObserver = new IntersectionObserver(loadImg, {
+  root: null,
+  threshold: 0,
+  rootMargin: '200px'
+});
+imgTargets.forEach(function (img) {
+  return imgObserver.observe(img);
+});
+
+//Slider
+var slider = function slider() {
+  var slides = document.querySelectorAll('.slide');
+  var btnLeft = document.querySelector('.slider__btn--left');
+  var btnRight = document.querySelector('.slider__btn--right');
+  var dotContainer = document.querySelector('.dots');
+  var curSlide = 0;
+  var maxSlide = slides.length;
+  var createDots = function createDots() {
+    slides.forEach(function (_, i) {
+      dotContainer.insertAdjacentHTML('beforeend', "<button class=\"dots__dot\" data-slide=\"".concat(i, "\"></button>"));
+    });
+  };
+  var activateDot = function activateDot(slide) {
+    document.querySelectorAll('.dots__dot').forEach(function (dot) {
+      return dot.classList.remove('dots__dot--active');
+    });
+    document.querySelector(".dots__dot[data-slide=\"".concat(slide, "\"]")).classList.add('dots__dot--active');
+  };
+  var goToSlide = function goToSlide(slide) {
+    slides.forEach(function (s, i) {
+      return s.style.transform = "translateX(".concat(100 * (i - slide), "%)");
+    });
+  };
+  var nextSlide = function nextSlide() {
+    if (curSlide === maxSlide - 1) {
+      curSlide = 0;
+    } else {
+      curSlide++;
+    }
+    goToSlide(curSlide);
+    activateDot(curSlide);
+  };
+  var prevSlide = function prevSlide() {
+    if (curSlide === 0) {
+      curSlide = maxSlide - 1;
+    } else {
+      curSlide--;
+    }
+    goToSlide(curSlide);
+    activateDot(curSlide);
+  };
+  var init = function init() {
+    goToSlide(0);
+    createDots();
+    activateDot(0);
+  };
+  init();
+  btnRight.addEventListener('click', nextSlide);
+  btnLeft.addEventListener('click', prevSlide);
+  document.addEventListener('keydown', function (e) {
+    e.key === 'ArrowLeft' && prevSlide();
+    e.key === 'ArrowRight' && nextSlide();
+  });
+  dotContainer.addEventListener('click', function (e) {
+    if (e.target.classList.contains('dots__dot')) {
+      var slide = e.target.dataset.slide;
+      goToSlide(slide);
+      activateDot(slide);
+    }
+  });
+};
+slider();
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle4169cc3b2a9157ef7320.js.map
+//# sourceMappingURL=bundleb299677bdd561b1945f5.js.map
